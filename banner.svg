@@ -1,0 +1,35 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgb(23,29,36)" />
+      <stop offset="100%" stop-color="rgb(20,35,45)" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgb(31,102,132)" stop-opacity="0" />
+      <stop offset="50%" stop-color="rgb(110,147,173)" stop-opacity="1" />
+      <stop offset="100%" stop-color="rgb(31,102,132)" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)" />
+
+  <text x="600" y="140" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700"
+        font-size="58" letter-spacing="2" fill="rgb(244,242,237)">
+    ARMAN NOUROMID
+  </text>
+
+  <text x="600" y="185" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400"
+        font-size="22" letter-spacing="1" fill="rgb(110,147,173)">
+    Data &amp; BI Engineer  ·  building AI automation that ships
+  </text>
+
+  <rect x="450" y="210" width="300" height="2" fill="url(#accentLine)" />
+
+  <text x="600" y="255" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400"
+        font-size="16" letter-spacing="3" fill="rgb(74,84,95)">
+    DATA VAULT 2.0 · SQL SERVER · POWER BI · CLAUDE CODE · OBSIDIAN
+  </text>
+</svg>
