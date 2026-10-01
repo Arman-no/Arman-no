@@ -20,6 +20,15 @@ Outside that, I build AI automation end to end: multi-agent Claude Code systems,
 
 Filed and fixed a real bug in [obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) (a Claude Code skill with 1,000+ stars for giving agents persistent memory via an Obsidian vault): its SessionStart hook silently never loaded the vault's own operating rules, because it only checked an environment variable that a standard install never actually sets. Root-caused, fixed, and opened as [PR #288](https://github.com/eugeniughelbur/obsidian-second-brain/pull/288).
 
+### Projects
+
+| | |
+|---|---|
+| [**ResumerAgent**](https://github.com/Arman-no/ResumerAgent) · [site](https://resumeragent.armannouromid.com) | Local dashboard that finds every Claude Code session, including the dead ones `claude agents` can't list, and resumes any of them in one click. Node.js, zero runtime dependencies, CI on Windows/macOS/Linux, MIT. |
+| [**web-scraping-toolkit**](https://github.com/Arman-no/web-scraping-toolkit) | Two self-contained Python CLIs for pages a plain request can't read: a stealth-browser fetcher (Scrapling) returning markdown from bot-walled and JS-rendered pages, and a local Instagram-reel transcriber (faster-whisper, CPU only). Registered as a Claude Code skill. |
+| [**Moonshine Jewellery**](https://moonshinejewellery.de) | E-commerce platform moving a handmade jewellery business off a marketplace onto its own checkout: Medusa v2 backend, Next.js storefront, Postgres, Redis, Stripe, Etsy sync. Live. |
+| [**armannouromid.com**](https://armannouromid.com) | Portfolio with evidence-linked case studies from the data-warehouse work and the side projects above. |
+
 ### Stack
 
 `SQL Server` `T-SQL` `SSIS` `BIML` `Power BI` `DAX` `Azure Fabric & Synapse` — `Python` `TypeScript` `Claude Code` `Obsidian` `MCP`
