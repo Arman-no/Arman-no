@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="t"><title id="t">Data warehousing</title><style>text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.signal{stroke-dasharray:4 14;animation:signal 5s linear infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+.edge{stroke-dasharray:10 90;animation:edge 10s linear infinite}
+.sheen{animation:sheen 12s ease-in-out infinite;opacity:0}
+.float{animation:float 6s ease-in-out infinite}
+.chev{animation:chev 3s ease-in-out infinite}
+.spin{animation:spin 24s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes signal{to{stroke-dashoffset:-180}}
+@keyframes pulse{50%{opacity:.35}}
+@keyframes edge{to{stroke-dashoffset:-100}}
+@keyframes sheen{0%,15%{transform:translateX(-200px);opacity:0}25%{opacity:.08}65%{transform:translateX(var(--t));opacity:.08}75%,100%{transform:translateX(var(--t));opacity:0}}
+@keyframes float{50%{transform:translateY(-4px)}}
+@keyframes chev{50%{transform:translateX(5px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.sheen,.edge{display:none}}</style>
+<rect x=".5" y=".5" width="63" height="63" rx="14" fill="#080e19" stroke="#29384c"/><circle class="pulse" cx="32" cy="32" r="27" fill="#7dd3fc" fill-opacity=".07"/>
+<g transform="translate(32 32) scale(.7)"><g fill="none" stroke="#7dd3fc" stroke-width="2"><ellipse cx="0" cy="-20" rx="24" ry="8"/><path d="M-24-20V20A24 8 0 0 0 24 20V-20"/><path d="M-24-6A24 8 0 0 0 24-6M-24 7A24 8 0 0 0 24 7" stroke-opacity=".6"/></g></g></svg>

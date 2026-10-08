@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280" role="img" aria-labelledby="t d"><title id="t">armannouromid.com</title><desc id="d">Evidence-linked case studies from the data-warehouse work and the side projects.</desc>
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#163047" stroke-opacity=".35"/></pattern>
+<linearGradient id="sh"><stop stop-color="#7dd3fc" stop-opacity="0"/><stop offset=".5" stop-color="#e6f6ff"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></linearGradient>
+<clipPath id="clip"><rect width="440" height="280" rx="14"/></clipPath></defs>
+<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.signal{stroke-dasharray:4 14;animation:signal 5s linear infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+.edge{stroke-dasharray:10 90;animation:edge 10s linear infinite}
+.sheen{animation:sheen 12s ease-in-out infinite;opacity:0}
+.float{animation:float 6s ease-in-out infinite}
+.chev{animation:chev 3s ease-in-out infinite}
+.spin{animation:spin 24s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes signal{to{stroke-dashoffset:-180}}
+@keyframes pulse{50%{opacity:.35}}
+@keyframes edge{to{stroke-dashoffset:-100}}
+@keyframes sheen{0%,15%{transform:translateX(-200px);opacity:0}25%{opacity:.08}65%{transform:translateX(var(--t));opacity:.08}75%,100%{transform:translateX(var(--t));opacity:0}}
+@keyframes float{50%{transform:translateY(-4px)}}
+@keyframes chev{50%{transform:translateX(5px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.sheen,.edge{display:none}}</style>
+<rect width="440" height="280" rx="14" fill="#080e19"/><rect width="440" height="280" rx="14" fill="url(#grid)"/>
+<g clip-path="url(#clip)" aria-hidden="true"><rect class="sheen" style="--t:840px" x="-180" width="180" height="280" fill="url(#sh)"/>
+<rect x=".5" y=".5" width="439" height="279" rx="14" fill="none" stroke="#23334c"/>
+<rect class="edge" x="1" y="1" width="438" height="278" rx="14" pathLength="100" fill="none" stroke="#7dd3fc" stroke-opacity=".6"/></g>
+
+<path d="M16 16H40M16 16V40M424 264H400M424 264V240" fill="none" stroke="#7dd3fc"/>
+<text x="28" y="54" font-size="16" letter-spacing="2" fill="#7dd3fc">PORTFOLIO</text>
+<g transform="translate(392 50) scale(.85)"><g class="float"><g stroke="#7dd3fc" stroke-width="2" fill="none"><path d="M-18-26H8L20-14V26H-18Z" fill="#7dd3fc" fill-opacity=".08"/><path d="M8-26V-14H20" /><path d="M-10-4H12M-10 6H12M-10 16H4" stroke-opacity=".6"/></g></g></g>
+<text class="sans" x="28" y="112" font-size="33" font-weight="700" fill="#e6edf3">armannouromid.com</text>
+<text class="sans" x="28" y="152" font-size="23" fill="#a7b8ce">Evidence-linked case studies</text>
+<text class="sans" x="28" y="182" font-size="23" fill="#a7b8ce">from the data-warehouse work</text>
+<text class="sans" x="28" y="212" font-size="23" fill="#a7b8ce">and the side projects.</text>
+<text x="28" y="250" font-size="16" fill="#6b7d93">Data Vault 2.0 · Power BI</text>
+<g class="chev"><text x="404" y="250" font-size="17" fill="#7dd3fc" text-anchor="end">explore →</text></g>
+</svg>
